@@ -31,7 +31,7 @@ function App() {
         <PinInput
           defaultValue="000000"
           isSecret={false}
-          validatePattern={/[A-Z]/}
+          validatePattern={/[0-9]/}
           length={6}
           onComplete={handleCompletePinInput}
           isDisable={isPosting}
